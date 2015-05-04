@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  MainController.h
 //  BatteryMonitor
 //
-//  Created by sean on 15-5-2.
+//  Created by sean on 15-5-4.
 //  Copyright (c) 2015年 sean. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainController : UIViewController
 
 @end
-

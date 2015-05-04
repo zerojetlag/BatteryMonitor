@@ -10,11 +10,11 @@
 		141F74981AF50A2E00443E4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 141F74971AF50A2E00443E4E /* main.m */; };
 		141F749B1AF50A2E00443E4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 141F749A1AF50A2E00443E4E /* AppDelegate.m */; };
 		141F749E1AF50A2E00443E4E /* BatteryMonitor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 141F749C1AF50A2E00443E4E /* BatteryMonitor.xcdatamodeld */; };
-		141F74A11AF50A2E00443E4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141F74A01AF50A2E00443E4E /* ViewController.m */; };
-		141F74A41AF50A2E00443E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141F74A21AF50A2E00443E4E /* Main.storyboard */; };
 		141F74A61AF50A2E00443E4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141F74A51AF50A2E00443E4E /* Images.xcassets */; };
 		141F74A91AF50A2E00443E4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141F74A71AF50A2E00443E4E /* LaunchScreen.xib */; };
 		141F74B51AF50A2E00443E4E /* BatteryMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 141F74B41AF50A2E00443E4E /* BatteryMonitorTests.m */; };
+		149228A91AF71F5A00EC3986 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149228A71AF71F5A00EC3986 /* MainController.m */; };
+		149228AA1AF71F5A00EC3986 /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149228A81AF71F5A00EC3986 /* MainController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +34,14 @@
 		141F74991AF50A2E00443E4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		141F749A1AF50A2E00443E4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		141F749D1AF50A2E00443E4E /* BatteryMonitor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BatteryMonitor.xcdatamodel; sourceTree = "<group>"; };
-		141F749F1AF50A2E00443E4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		141F74A01AF50A2E00443E4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		141F74A31AF50A2E00443E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		141F74A51AF50A2E00443E4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		141F74A81AF50A2E00443E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		141F74AE1AF50A2E00443E4E /* BatteryMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteryMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		141F74B31AF50A2E00443E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		141F74B41AF50A2E00443E4E /* BatteryMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatteryMonitorTests.m; sourceTree = "<group>"; };
+		149228A61AF71F5A00EC3986 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		149228A71AF71F5A00EC3986 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		149228A81AF71F5A00EC3986 /* MainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				141F74991AF50A2E00443E4E /* AppDelegate.h */,
+				149228A61AF71F5A00EC3986 /* MainController.h */,
+				149228A71AF71F5A00EC3986 /* MainController.m */,
+				149228A81AF71F5A00EC3986 /* MainController.xib */,
 				141F749A1AF50A2E00443E4E /* AppDelegate.m */,
-				141F749F1AF50A2E00443E4E /* ViewController.h */,
-				141F74A01AF50A2E00443E4E /* ViewController.m */,
-				141F74A21AF50A2E00443E4E /* Main.storyboard */,
 				141F74A51AF50A2E00443E4E /* Images.xcassets */,
 				141F74A71AF50A2E00443E4E /* LaunchScreen.xib */,
 				141F749C1AF50A2E00443E4E /* BatteryMonitor.xcdatamodeld */,
@@ -202,9 +202,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				141F74A41AF50A2E00443E4E /* Main.storyboard in Resources */,
 				141F74A91AF50A2E00443E4E /* LaunchScreen.xib in Resources */,
 				141F74A61AF50A2E00443E4E /* Images.xcassets in Resources */,
+				149228AA1AF71F5A00EC3986 /* MainController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				149228A91AF71F5A00EC3986 /* MainController.m in Sources */,
 				141F749B1AF50A2E00443E4E /* AppDelegate.m in Sources */,
 				141F749E1AF50A2E00443E4E /* BatteryMonitor.xcdatamodeld in Sources */,
-				141F74A11AF50A2E00443E4E /* ViewController.m in Sources */,
 				141F74981AF50A2E00443E4E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,14 +248,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		141F74A21AF50A2E00443E4E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				141F74A31AF50A2E00443E4E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		141F74A71AF50A2E00443E4E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +408,7 @@
 				141F74BA1AF50A2E00443E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		141F74BB1AF50A2E00443E4E /* Build configuration list for PBXNativeTarget "BatteryMonitorTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +417,7 @@
 				141F74BD1AF50A2E00443E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
